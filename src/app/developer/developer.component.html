@@ -1,0 +1,13 @@
+<div class="devCtn">
+    <h3>Your profile</h3>
+    <p>prenom: {{developper.lastname}}</p>
+    <p>nom: {{developper.firstname}}</p>
+    <p>age: {{developper.age}}</p>
+    <p>sexe: {{developper.sexe}}</p>
+    <p>bio: {{developper.bio}}</p>
+    <app-skill *ngFor="let skill of skills" [skill]="skill">
+
+    </app-skill>
+
+
+</div>
